@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/sofomo-frontend-task/static/css/main.41c23997.chunk.css",
+    "main.js": "/sofomo-frontend-task/static/js/main.487ef263.chunk.js",
+    "main.js.map": "/sofomo-frontend-task/static/js/main.487ef263.chunk.js.map",
+    "runtime-main.js": "/sofomo-frontend-task/static/js/runtime-main.e2c6b90e.js",
+    "runtime-main.js.map": "/sofomo-frontend-task/static/js/runtime-main.e2c6b90e.js.map",
+    "static/css/2.7b760f09.chunk.css": "/sofomo-frontend-task/static/css/2.7b760f09.chunk.css",
+    "static/js/2.e496ea75.chunk.js": "/sofomo-frontend-task/static/js/2.e496ea75.chunk.js",
+    "static/js/2.e496ea75.chunk.js.map": "/sofomo-frontend-task/static/js/2.e496ea75.chunk.js.map",
+    "static/js/3.6e65250e.chunk.js": "/sofomo-frontend-task/static/js/3.6e65250e.chunk.js",
+    "static/js/3.6e65250e.chunk.js.map": "/sofomo-frontend-task/static/js/3.6e65250e.chunk.js.map",
+    "index.html": "/sofomo-frontend-task/index.html",
+    "static/css/2.7b760f09.chunk.css.map": "/sofomo-frontend-task/static/css/2.7b760f09.chunk.css.map",
+    "static/css/main.41c23997.chunk.css.map": "/sofomo-frontend-task/static/css/main.41c23997.chunk.css.map",
+    "static/js/2.e496ea75.chunk.js.LICENSE.txt": "/sofomo-frontend-task/static/js/2.e496ea75.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/sofomo-frontend-task/static/media/roboto-vietnamese-400-normal.52cebac0.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e2c6b90e.js",
+    "static/css/2.7b760f09.chunk.css",
+    "static/js/2.e496ea75.chunk.js",
+    "static/css/main.41c23997.chunk.css",
+    "static/js/main.487ef263.chunk.js"
+  ]
+}
