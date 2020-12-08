@@ -1,6 +1,7 @@
 
 import { Map, GoogleApiWrapper } from 'google-maps-react';
-import { GOOGLE_MAPS_API_KEY } from '../../api/keys';
+
+const {REACT_APP_GOOGLE_MAPS_API_KEY} = process.env;
 
 const LocationMap = (props) => {
 
@@ -30,5 +31,5 @@ const LocationMap = (props) => {
 }
 
 export default GoogleApiWrapper({
-    apiKey: GOOGLE_MAPS_API_KEY
+    apiKey: REACT_APP_GOOGLE_MAPS_API_KEY
 })(LocationMap);

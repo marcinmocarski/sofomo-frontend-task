@@ -1,4 +1,5 @@
 import { useSelector, useDispatch } from 'react-redux';
+import Divider from '@material-ui/core/Divider';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
@@ -30,12 +31,15 @@ const SearchList = () => {
         })
     };
     const listItems = searchList.map((item, index) => (
-        <ListItem button key={index} onClick={() => { listItemClickHandler(item) }}>
-            <ListItemIcon>
-                <MyLocationIcon />
-            </ListItemIcon>
-            <ListItemText primary={item.ip} />
-        </ListItem>
+        <div key={index}>
+            <Divider />
+            <ListItem button onClick={() => { listItemClickHandler(item) }}>
+                <ListItemIcon>
+                    <MyLocationIcon />
+                </ListItemIcon>
+                <ListItemText primary={item.ip} />
+            </ListItem>
+        </div>
     ));
 
     return (

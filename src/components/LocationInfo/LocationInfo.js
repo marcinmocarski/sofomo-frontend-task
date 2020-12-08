@@ -30,7 +30,10 @@ const LocationInfo = ({ info, title }) => {
                         {ip}
                     </Typography>
                     <Typography variant="h5" component="p">
-                        {city}, {country_name}
+                        {city}
+                    </Typography>
+                    <Typography variant="h5" component="p">
+                        {country_name}
                     </Typography>
                 </CardContent>
             </Card>
