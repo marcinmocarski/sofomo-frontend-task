@@ -6,6 +6,7 @@ import MuiAlert from '@material-ui/lab/Alert';
 import App from '../../App/App'
 
 const { REACT_APP_IP_ADDRESS_GEOLOCATION_API_KEY } = process.env;
+console.log(REACT_APP_IP_ADDRESS_GEOLOCATION_API_KEY);
 
 const AppContainer = () => {
     const [isErrorAlertOpen, setIsErrorAlertOpen] = useState(false);
