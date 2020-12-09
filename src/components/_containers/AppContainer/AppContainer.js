@@ -6,7 +6,6 @@ import MuiAlert from '@material-ui/lab/Alert';
 import App from '../../App/App'
 
 const { REACT_APP_IP_ADDRESS_GEOLOCATION_API_KEY } = process.env;
-console.log(REACT_APP_IP_ADDRESS_GEOLOCATION_API_KEY);
 
 const AppContainer = () => {
     const [isErrorAlertOpen, setIsErrorAlertOpen] = useState(false);
@@ -28,7 +27,7 @@ const AppContainer = () => {
             })
     }
     const fetchLocation = (value, isUserLocationInfo = false) => {
-        fetch(`${IP_ADDRESS_GEOLOCATION_API_URL}/${value}?access_key=${REACT_APP_IP_ADDRESS_GEOLOCATION_API_KEY}&output=json`)
+        fetch(`${IP_ADDRESS_GEOLOCATION_API_URL}/${value}`)
             .then(response => response.json())
             .then(data => {
                 if (data && data.latitude && data.longitude) {

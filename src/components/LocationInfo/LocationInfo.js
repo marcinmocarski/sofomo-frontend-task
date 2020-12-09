@@ -12,11 +12,16 @@ const useStyles = makeStyles({
     },
     title: {
         fontSize: 14,
+    },
+    text: {
+        overflow: "hidden",
+        whiteSpace: "nowrap",
+        textOverflow: "ellipsis"
     }
 });
 
 const LocationInfo = ({ info, title }) => {
-    const {ip, city, country_name} = info;
+    const { ip, city, country_name } = info;
     const classess = useStyles();
 
     return (
@@ -26,13 +31,13 @@ const LocationInfo = ({ info, title }) => {
                     <Typography className={classess.title} color="textSecondary" gutterBottom>
                         {title}
                     </Typography>
-                    <Typography variant="h5" component="p">
+                    <Typography className={classess.text} variant="h5" component="p">
                         {ip}
                     </Typography>
-                    <Typography variant="h5" component="p">
+                    <Typography className={classess.text} variant="h5" component="p">
                         {city}
                     </Typography>
-                    <Typography variant="h5" component="p">
+                    <Typography className={classess.text} variant="h5" component="p">
                         {country_name}
                     </Typography>
                 </CardContent>
